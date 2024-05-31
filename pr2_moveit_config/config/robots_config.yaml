@@ -1,0 +1,29 @@
+robots_config:
+  nb_robots: 1
+  robot_ids: ["robot_1"]
+  robot_1:
+    info:
+      name: "pr2"
+      arm_group: "left_arm"
+      eef: "left_gripper"
+      eef_frame: "l_gripper_tool_frame"
+      world_frame: "odom_combined"
+      arm_home_pose: "home"
+      eef_open_pose: "open"
+      eef_close_pose: "close"
+      max_gripper_width: 0.1
+      grasp_frame_transform: [0, 0, 0, 0, 0, 0]
+      approach_retreat_direction: [1, 0, 0]
+    base_pose: [0, 0, 0, 0, 0, 0]
+
+#  robot_2:
+#    name: "pr2"
+#      arm_group_name: "right_arm"
+#      eef_name: "right_gripper"
+#      hand_group_name: "right_gripper"
+#      hand_frame: "r_gripper_tool_frame"
+#      world_frame: "odom_combined"
+#      arm_home_pose: "home"
+#      hand_open_pose: "open"
+#      hand_close_pose: "close"
+#    base_pose: [0, 0, 0, 0, 0, 0]

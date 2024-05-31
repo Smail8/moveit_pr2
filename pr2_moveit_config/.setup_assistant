@@ -2,7 +2,10 @@ moveit_setup_assistant_config:
   URDF:
     package: pr2_description
     relative_path: robots/pr2.urdf.xacro
+    xacro_args: ""
   SRDF:
     relative_path: config/pr2.srdf
   CONFIG:
-    generated_timestamp: 1364768330
+    author_name: Smail Ait Bouhsain
+    author_email: saitbouhsa@laas.fr
+    generated_timestamp: 1716396538
