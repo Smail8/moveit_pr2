@@ -16,7 +16,7 @@ robots_config:
       approach_retreat_direction: [1, 0, 0]
     base_pose: [0, 0, 0, 0, 0, 0]
 
-#  robot_2:
+#  robot_1:
 #    name: "pr2"
 #      arm_group_name: "right_arm"
 #      eef_name: "right_gripper"
@@ -26,4 +26,7 @@ robots_config:
 #      arm_home_pose: "home"
 #      hand_open_pose: "open"
 #      hand_close_pose: "close"
+#      max_gripper_width: 0.1
+#      grasp_frame_transform: [0, 0, 0, 0, 0, 0]
+#      approach_retreat_direction: [1, 0, 0]
 #    base_pose: [0, 0, 0, 0, 0, 0]
