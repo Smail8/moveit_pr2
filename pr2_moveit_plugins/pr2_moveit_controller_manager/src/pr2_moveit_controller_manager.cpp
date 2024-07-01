@@ -50,7 +50,7 @@
 namespace pr2_moveit_controller_manager
 {
 /// Maximum effort the PR2 gripper is allowed to exert (read as 'very large value'); this is PR2 specific
-static const double DEFAULT_MAX_GRIPPER_EFFORT = 10000.0;
+static const double DEFAULT_MAX_GRIPPER_EFFORT = 100.0;
 
 /// The distance between the PR2 gripper fingers when fully open (in m); this is PR2 specific
 static const double GRIPPER_OPEN = 0.086;
@@ -59,10 +59,10 @@ static const double GRIPPER_OPEN = 0.086;
 static const double GRIPPER_CLOSED = 0.0;
 
 /// The name of the joint we expect input for to decide how to actuate the right gripper; this is PR2 specific
-static const std::string R_GRIPPER_JOINT = "r_gripper_motor_screw_joint";
+static const std::string R_GRIPPER_JOINT = "r_gripper_l_finger_joint";
 
 /// The name of the joint we expect input for to decide how to actuate the left gripper; this is PR2 specific
-static const std::string L_GRIPPER_JOINT = "l_gripper_motor_screw_joint";
+static const std::string L_GRIPPER_JOINT = "l_gripper_l_finger_joint";
 
 /// The conversion ratio that needs to be applied to get the gap opening of the gripper (m) based on the value of the
 /// motor joint actuating the gripper (PR2 specific)
