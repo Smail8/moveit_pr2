@@ -3,6 +3,7 @@
   <arg name="arm_id" default="pr2" doc="Name of the panda robot to spawn" />
   <arg name="world_name" default="/home/saitbouhsa/Desktop/geometric-reasoning-networks/planning_ws/src/sim/worlds/example.world"/>
   <arg name="pipeline" default="ompl" />
+  <arg name="moveit_controller_manager" default="pr2" />
 
   <!-- Gazebo specific options -->
   <arg name="gazebo_gui" default="false" />
@@ -17,7 +18,7 @@
     <arg name="load_robot_description" value="true" />
     <!-- MoveItSimpleControllerManager provides ros_control's JointTrajectory controllers
          as well as GripperCommand actions -->
-    <arg name="moveit_controller_manager" value="pr2" />
+    <arg name="moveit_controller_manager" value="$(arg moveit_controller_manager)" />
     <arg name="use_rviz" value="$(arg rviz)" />
   </include>
 

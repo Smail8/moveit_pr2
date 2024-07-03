@@ -121,13 +121,13 @@
     </group_state>
     <group_state name="close" group="right_gripper">
         <joint name="r_gripper_joint" value="0"/>
-        <joint name="r_gripper_l_finger_joint" value="0.001"/>
+        <joint name="r_gripper_l_finger_joint" value="0.0"/>
         <joint name="r_gripper_motor_screw_joint" value="0"/>
         <joint name="r_gripper_motor_slider_joint" value="0"/>
     </group_state>
     <group_state name="close" group="left_gripper">
         <joint name="l_gripper_joint" value="0"/>
-        <joint name="l_gripper_l_finger_joint" value="0.001"/>
+        <joint name="l_gripper_l_finger_joint" value="0.0"/>
         <joint name="l_gripper_motor_screw_joint" value="0"/>
         <joint name="l_gripper_motor_slider_joint" value="0"/>
     </group_state>
