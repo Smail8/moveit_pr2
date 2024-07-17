@@ -7,14 +7,14 @@ robots_config:
       arm_group: "right_arm"
       eef: "right_gripper"
       eef_frame: "r_gripper_tool_frame"
-      world_frame: "odom_combined"
+      world_frame: "map"
       arm_home_pose: "home"
       eef_open_pose: "open"
       eef_close_pose: "close"
       max_gripper_width: 0.1
       grasp_frame_transform: [0, 0, 0, 0, 0, 0]
       approach_retreat_direction: [1, 0, 0]
-    base_pose: [0, 0, 0, 0, 0, 0]
+    base_pose: [4.3, 7.4, 0, 0, 0, 0]
 
 #  robot_1:
 #    name: "pr2"
