@@ -89,6 +89,16 @@
         <joint name="r_wrist_flex_joint" value="-1"/>
         <joint name="r_wrist_roll_joint" value="1.5707"/>
     </group_state>
+    <group_state name="home" group="right_arm_and_torso">
+        <joint name="r_elbow_flex_joint" value="-2.1212"/>
+        <joint name="r_forearm_roll_joint" value="0"/>
+        <joint name="r_shoulder_lift_joint" value="1.2963"/>
+        <joint name="r_shoulder_pan_joint" value="0"/>
+        <joint name="r_upper_arm_roll_joint" value="0"/>
+        <joint name="r_wrist_flex_joint" value="-1"/>
+        <joint name="r_wrist_roll_joint" value="1.5707"/>
+        <joint name="torso_lift_joint" value="0.02"/>
+    </group_state>
     <group_state name="tuck_right_arm" group="right_arm">
         <joint name="r_elbow_flex_joint" value="-2.12441"/>
         <joint name="r_forearm_roll_joint" value="-1.4175"/>

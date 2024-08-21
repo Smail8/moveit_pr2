@@ -1,7 +1,7 @@
 <launch>
   <!-- specify the planning pipeline -->
   <arg name="arm_id" default="pr2" doc="Name of the panda robot to spawn" />
-  <arg name="world_name" default="/home/saitbouhsa/Desktop/geometric-reasoning-networks/planning_ws/src/sim/worlds/example.world"/>
+  <arg name="world_name" default="/home/bmerlau/Documents/geometric-reasoning-networks/planning_ws/src/sim/worlds/example.world"/>
   <arg name="pipeline" default="ompl" />
   <arg name="moveit_controller_manager" default="pr2" />
 
