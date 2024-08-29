@@ -127,6 +127,6 @@ initial:  # Define initial robot poses per group
   - group: right_arm
     pose: home
   - group: right_gripper
-    pose: close
+    pose: open
   - group: left_gripper
-    pose: close
+    pose: open
