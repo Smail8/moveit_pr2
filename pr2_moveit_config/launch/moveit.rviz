@@ -34,10 +34,10 @@ Panels:
         - 169
       solutions_view_columns: ~
       tasks_view_columns:
-        - 148
+        - 166
         - 57
         - 57
-        - 61
+        - 57
 Preferences:
   PromptSaveOnExit: true
 Toolbars:
@@ -49,7 +49,7 @@ Visualization Manager:
       Cell Size: 1
       Class: rviz/Grid
       Color: 160; 160; 164
-      Enabled: true
+      Enabled: false
       Line Style:
         Line Width: 0.029999999329447746
         Value: Lines
@@ -62,7 +62,7 @@ Visualization Manager:
       Plane: XY
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
-      Value: true
+      Value: false
     - Acceleration_Scaling_Factor: 0.1
       Class: moveit_rviz_plugin/MotionPlanning
       Enabled: true
@@ -1382,10 +1382,9 @@ Visualization Manager:
         Voxel Rendering: Occupied Voxels
       Show Trail: false
       State Display Time: 0.05 s
-      Task Solution Topic: /task_planner/solution
+      Task Solution Topic: /fast_task_planner/solution
       Tasks:
-        "Pick-Place Task : pick object0 and place on table": 0
-        "Pick-Place Task : pick object1 and place on table": 0
+        "Pick-Place Task : pick object0 and place on base": 0
       Trail Step Size: 1
       Value: true
   Enabled: true
@@ -1404,7 +1403,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 5.546157360076904
+      Distance: 5.221457004547119
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -1412,17 +1411,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.75
       Focal Point:
-        X: -0.10000000149011612
-        Y: 0.25
-        Z: 0.30000001192092896
+        X: -0.10204213857650757
+        Y: -0.048541437834501266
+        Z: 0.5547313690185547
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.6850003004074097
+      Pitch: 0.6847968101501465
       Target Frame: odom_combined
-      Yaw: 0.04177001863718033
+      Yaw: 0.7367726564407349
     Saved: ~
 Window Geometry:
   Displays:
